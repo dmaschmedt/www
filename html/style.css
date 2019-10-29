@@ -1,0 +1,1038 @@
+/* CROSS-BROWSER SUPPORT FOR MOBILE DEVICES  */
+
+/* will not validate --------- */
+html { 
+	-webkit-text-size-adjust: none; 	/* don't resize body copy on iPhone */
+}
+
+@-ms-viewport,		/* IE10 */
+@viewport	{		/* future browsers */
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+/* --------- end will not validate */
+
+
+
+/* reset global list styles on ALL navigation lists */
+
+nav ul,
+nav ul ul,
+nav li,
+nav li li {
+  position: static;
+  left: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;  
+}
+
+
+
+/* LAYOUT */
+
+html {
+	font-size: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #EEE;
+	font-family: Roboto, Ubuntu, sans-serif;
+}
+
+hr {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: -4.5em;
+  height: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid #707070;
+  width: 70%;
+  clear: both;
+}
+
+#flex-container,
+#flex-footer,
+#flex-credit {
+  width: 90%;
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#flex-container-bg {
+  width: 90%;
+  background-color: #FFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+#flex-container-team {
+  width: 90%;
+  background-color: #FFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+#flex-container-team-member {
+  width: 90%;
+  background-color: #FFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin-top: 25em;
+}
+
+#flex-container-news {
+  width: 90%;
+  background-color: #FFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 10em;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 81.25em;
+  width: 90%;
+}
+
+
+
+/* TEXT */
+
+h1 {
+	font-family: proxima-nova, Roboto, sans-serif;
+  color: #FFF;
+  font-size: 500%;
+  line-height: 100%;
+  font-weight: 100;
+}
+
+h2 {
+	font-family: proxima-nova, Roboto, Ubuntu, sans-serif;
+  display: block;
+  color: #707070;
+  font-size: 250%;
+  font-weight: 100;
+  padding-bottom: 0.5em;
+}
+
+h3 {
+	font-family: proxima-nova, Roboto, Ubuntu, sans-serif;
+  display: block;
+  color: #707070;
+  font-size: 200%;
+  font-weight: 100;
+}
+
+h4 {
+	font-family: Ubuntu, Roboto, sans-serif;
+  display: block;
+  font-weight: 400;
+  color: #000;
+  font-size: 150%;
+  padding-bottom: 0.25em;
+}
+
+h5 {
+  font-family: proxima-nova, Roboto, Ubuntu, sans-serif;
+  display: block;
+  color: #707070;
+  font-size: 250%;
+  font-weight: 100;
+  padding-bottom: 0.5em;
+}
+
+p {
+	font-family: Ubuntu, Roboto, sans-serif;
+  color: #000;
+  text-align: left;
+  display: block;
+  font-weight: 100;
+  font-size: 120%;
+  line-height: 120%;
+  padding-bottom: 2em;
+}
+
+p.last {
+  padding-bottom: 0;
+}
+
+strong {
+  font-weight: 300;
+  color: rgb(21,41,4);
+}
+
+p.name {
+  padding-bottom: 0;
+  margin-top: 0.5em;
+}
+
+p.title {
+  color: #707070;
+  padding-bottom: 0;
+  font-size: 100%;
+}
+
+p.footer {
+  text-align: left;
+  display: block;
+  font-weight: 100;
+  font-size: 100%;
+  line-height: 150%;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+p.credit {
+  color: #CCC;
+  padding-top: 1em;
+  font-size: 90%;
+}
+
+
+
+/* HEADER */
+
+header {
+	font-family: Roboto, Ubuntu, sans-serif;
+	text-align: left;
+	padding-top: 3em;
+	position: relative;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+}
+
+.menu-main {
+	width: 70%;
+	float: right;
+	text-align: right;
+}
+
+#head {
+	text-align: left;
+	padding-top: 15em;
+	padding-bottom: 1em;
+}
+
+
+/* Animation */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0);
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0);
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+}
+
+.animatedFadeInUp {
+  opacity: 0;
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+
+
+/* Menu */
+
+#menu-main-fixed li,
+#menu-main-fixed-rita li {
+	float: right;
+	list-style-type: none;
+	font-family: Ubuntu, Roboto, sans-serif;
+	font-size: 100%;
+	clear: both;
+	line-height: 100%;
+	text-transform: uppercase;
+  padding-bottom: 1em;
+}
+
+#menu-main-fixed li a {
+	text-decoration: none;
+	color: #FFF;
+	display: block;
+}
+
+#menu-main-fixed li a:hover {
+	text-decoration: underline;
+}
+
+#menu-page {
+	text-decoration: underline;
+}
+
+#menu-main-fixed-rita li a {
+  text-decoration: none;
+  color: #CCC;
+  display: block;
+}
+
+
+
+/* ABOUT */
+
+.back-about {
+  background-image: url(images/about.png);
+ 	background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+
+/* FOOTER */
+
+#contact {
+  flex: 1 0 45%;
+}
+
+
+
+/* CREDIT */
+
+#flex-credit a {
+  text-decoration: none;
+  color: #A9A9A9;
+}
+
+
+
+/* PHILOSOPHY */
+
+.back-philosophy {
+  background-image: url(images/philosophy.png);
+ 	background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+section {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.media { 
+   min-width: 0;
+   margin: 5px;
+}
+
+img.model {
+   width: 1300px;
+   max-width: 100%; 
+   max-height: 90px; 
+}
+
+
+
+/* PARTNERS */
+
+.back-partners {
+  background-image: url(images/partners.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.partners-logo {
+  border: 1px solid #CCC;
+  margin: 5px;
+  width: 300px;
+  height: auto;
+  flex: 1 0 21%;
+}
+
+
+
+/* TEAM */
+
+.back-team {
+  background-image: url(images/team.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.team-member {
+  border: 0;
+  margin: 5px 5px 32px;
+  width: 300px;
+  height: auto;
+  flex: 1 0 21%;
+}
+
+img.headshot {
+  display: block;
+  position: relative;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a.team-member-bio {
+  display: block;
+  text-decoration: none;
+  position: relative;
+}
+
+.hover-photo {
+  color: #FFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0,0,0, .6);
+  transition: opacity .3s linear;
+}
+
+.hover-photo:hover {
+  opacity: 1;
+}
+
+.hover-photo span {
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-top: 40%;
+}
+
+
+
+/* TEAM MEMBER */
+
+.back-roy {
+  background-image: url(images/roy-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-don {
+  background-image: url(images/don-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-roger {
+  background-image: url(images/roger-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-drew {
+  background-image: url(images/drew-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-stephen {
+  background-image: url(images/stephen-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-ben {
+  background-image: url(images/ben-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-kelly {
+  background-image: url(images/kelly-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-frank {
+  background-image: url(images/frank-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-scott {
+  background-image: url(images/scott-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-rita {
+  background-image: url(images/rita-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-cale {
+  background-image: url(images/cale-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-justin {
+  background-image: url(images/justin-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-josh {
+  background-image: url(images/josh-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-travis {
+  background-image: url(images/travis-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-steve-johnson {
+  background-image: url(images/steve-johnson-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-marine {
+  background-image: url(images/marine.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-camping {
+  background-image: url(images/camping.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.team-member-left {
+  flex: 28%;
+  padding-right: 1em;
+}
+
+img.member {
+   width: 100%;
+   height: auto;
+   margin-top: 0.75em;
+   margin-bottom: 1em;
+}
+
+.team-member-right {
+  flex: 68%;
+  padding-left: 1em;
+  border-left: 1px solid #707070;
+}
+
+.top,
+.bottom {
+ width: 100%;
+ float: none;
+ flex: 100%;
+}
+
+span.territory {
+  font-weight: 400;
+}
+
+span.e-mail {
+  color: rgb(21,41,4);
+}
+
+
+
+/* NEWS */
+
+.back-news {
+  background-image: url(images/news.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.prev {
+  border-right: 1px solid rgb(21,41,4);
+  padding-right: 10px;
+  color: rgb(21,41,4);
+}
+
+.next {
+  padding-left: 10px;
+  color: rgb(21,41,4);
+}
+
+a {
+  color: rgb(21,41,4);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1200px) {
+
+.back-about {
+  background-image: url(images/about-1300.png);
+}
+
+.back-philosophy {
+  background-image: url(images/philosophy-1300.png);
+}
+
+.back-partners {
+  background-image: url(images/partners-1300.png);
+}
+
+.back-team {
+  background-image: url(images/team-1300.png);
+}
+
+.back-news {
+  background-image: url(images/news-1300.png);
+}
+
+.back-don {
+  background-image: url(images/don-bg-1300.png);
+}
+
+.back-roger {
+  background-image: url(images/roger-bg-1300.png);
+}
+
+.back-drew {
+  background-image: url(images/drew-bg-1300.png);
+}
+
+.back-stephen {
+  background-image: url(images/stephen-bg-1300.png);
+}
+
+.back-roy {
+  background-image: url(images/roy-bg-1300.png);
+}
+
+.back-ben {
+  background-image: url(images/ben-bg-1300.png);
+}
+
+.back-kelly {
+  background-image: url(images/kelly-bg-1300.png);
+}
+
+.back-frank {
+  background-image: url(images/frank-bg-1300.png);
+}
+
+.back-scott {
+  background-image: url(images/scott-bg-1300.png);
+}
+
+.back-rita {
+  background-image: url(images/rita-bg-1300.png);
+}
+
+.back-cale {
+  background-image: url(images/cale-bg-1300.png);
+}
+
+.back-justin {
+  background-image: url(images/justin-bg-1300.png);
+}
+
+.back-josh {
+  background-image: url(images/josh-bg-1300.png);
+}
+
+.back-travis {
+  background-image: url(images/travis-bg-1300.png);
+}
+
+.back-steve-johnson {
+  background-image: url(images/steve-johnson-bg-1300.png);
+}
+
+.back-marine {
+  background-image: url(images/marine-1300.png);
+}
+
+.back-camping {
+  background-image: url(images/camping-1300.png);
+}
+
+.team-member-left {
+  flex: 35%;
+}
+
+.team-member-right {
+  flex: 60%;
+}
+
+}
+
+
+
+@media (max-width: 960px) {
+
+h1 {
+  font-size: 400%;
+}
+
+.team-member-right {
+  flex: 100%;
+  padding-left: 0;
+  border-left: none;
+}
+
+team-member-left {
+  padding-right: 1em;
+}
+
+.top {
+  width: 45%;
+  float: left;
+}
+
+.bottom {
+  width: 54%;
+  float: right;
+}
+
+img.member {
+  margin-top: 0;
+  width: 95%;
+}
+
+#flex-container-team-member {
+    padding-bottom: 0;
+    margin-top: 15em;
+}
+
+}
+
+
+
+@media (max-width: 810px) {
+
+.partners-logo,
+.team-member {
+  width: 200px;
+  height: auto;
+  flex: 1 0 30%;
+}
+
+#head {
+  padding-top: 5em;
+}
+
+#flex-container-bg {
+  padding-bottom: 2em;
+}
+
+#flex-container-team,
+#flex-container-news {
+  padding-bottom: 0;
+}
+
+}
+
+
+
+@media (max-width: 760px) {
+
+h5 {
+	padding-bottom: 0.5em;
+}
+
+hr {
+  width: 100%;
+}
+
+.back-philosophy {
+  background-image: url(images/philosophy-mobile.png);
+}
+
+.back-team {
+  background-image: url(images/team-mobile.png);
+}
+
+}
+
+
+
+@media (max-width: 620px) {
+
+html {
+  font-size: 90%;
+}
+
+.back-about {
+  background-image: url(images/about-mobile.png);
+}
+
+.back-partners {
+  background-image: url(images/partners-mobile.png);
+}
+
+.back-news {
+  background-image: url(images/news-mobile.png);
+}
+
+.back-roy {
+  background-image: url(images/roy-bg-mobile.png);
+}
+
+.back-don {
+  background-image: url(images/don-bg-mobile.png);
+}
+
+.back-roger {
+  background-image: url(images/roger-bg-mobile.png);
+}
+
+.back-drew {
+  background-image: url(images/drew-bg-mobile.png);
+}
+
+.back-stephen {
+  background-image: url(images/stephen-bg-mobile.png);
+}
+
+.back-ben {
+  background-image: url(images/ben-bg-mobile.png);
+}
+
+.back-kelly {
+  background-image: url(images/kelly-bg-mobile.png);
+}
+
+.back-frank {
+  background-image: url(images/frank-bg-mobile.png);
+}
+
+.back-scott {
+  background-image: url(images/scott-bg-mobile.png);
+}
+
+.back-rita {
+  background-image: url(images/rita-bg-mobile.png);
+}
+
+.back-cale {
+  background-image: url(images/cale-bg-mobile.png);
+}
+
+.back-justin {
+  background-image: url(images/justin-bg-mobile.png);
+}
+
+.back-josh {
+  background-image: url(images/josh-bg-mobile.png);
+}
+
+.back-travis {
+  background-image: url(images/travis-bg-mobile.png);
+}
+
+.back-steve-johnson {
+  background-image: url(images/steve-johnson-bg-mobile.png);
+}
+
+.back-marine {
+  background-image: url(images/marine-mobile.png);
+}
+
+.back-camping {
+  background-image: url(images/camping-mobile.png);
+}
+
+.partners-logo,
+.team-member {
+  width: 200px;
+  height: auto;
+  flex: 1 0 45%;
+}
+
+.logo,
+.menu-main {
+  width: 50%;
+}
+
+.team-member-left {
+  flex: 100%;
+  padding-right: 0;
+}
+
+img.member {
+  margin-top: 0;
+}
+
+#flex-container-team-member {
+  padding-top: 2em;
+}
+
+h5 {
+  padding-bottom: 0.25em;
+}
+
+}
+
+
+
+@media (max-width: 380px) {
+
+header {
+  padding-top: 2em;
+}
+
+#head {
+  padding-top: 2em;
+}
+
+h1 {
+  font-size: 250%;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 150%;
+  color: #000;
+}
+
+p.footer {
+  font-size: 90%;
+}
+
+#contact {
+  padding-bottom: 1em;
+}
+
+.top,
+.bottom {
+ width: 100%;
+ float: none;
+}
+
+img.member {
+  width: 100%;
+}
+
+#flex-container-team-member {
+  margin-top: 12em;
+}
+
+}
+
+
+
