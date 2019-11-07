@@ -394,6 +394,14 @@ img.model {
   flex: 1 0 21%;
 }
 
+.partners-logo-empty {
+  border: 1px solid #FFF;
+  margin: 5px;
+  width: 300px;
+  height: auto;
+  flex: 1 0 21%;
+}
+
 
 
 /* TEAM */
@@ -826,6 +834,7 @@ img.member {
 @media (max-width: 810px) {
 
 .partners-logo,
+.partners-logo-empty,
 .team-member {
   width: 200px;
   height: auto;
@@ -958,6 +967,7 @@ html {
 }
 
 .partners-logo,
+.partners-logo-empty,
 .team-member {
   width: 200px;
   height: auto;
