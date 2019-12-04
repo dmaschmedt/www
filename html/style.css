@@ -601,6 +601,15 @@ a.team-member-bio {
   max-height: 1000px;
 }
 
+.back-randy {
+  background-image: url(images/randy-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
 .back-marine {
   background-image: url(images/marine.png);
   background-color: #EEE;
@@ -769,6 +778,10 @@ a:hover {
 
 .back-steve-johnson {
   background-image: url(images/steve-johnson-bg-1300.png);
+}
+
+.back-randy {
+  background-image: url(images/randy-bg-1300.png);
 }
 
 .back-marine {
@@ -956,6 +969,10 @@ html {
 
 .back-steve-johnson {
   background-image: url(images/steve-johnson-bg-mobile.png);
+}
+
+.back-randy {
+  background-image: url(images/randy-bg-mobile.png);
 }
 
 .back-marine {
