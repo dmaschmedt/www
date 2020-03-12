@@ -389,17 +389,17 @@ img.model {
 .partners-logo {
   border: 1px solid #CCC;
   margin: 5px;
-  width: 300px;
+  width: 100%;
   height: auto;
-  flex: 1 0 21%;
+  flex: 0 0 21%;
 }
 
 .partners-logo-empty {
   border: 1px solid #FFF;
   margin: 5px;
-  width: 300px;
+  width: 100%;
   height: auto;
-  flex: 1 0 21%;
+  flex: 0 0 21%;
 }
 
 
