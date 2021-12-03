@@ -326,6 +326,11 @@ header {
   display: block;
 }
 
+#menu-page-rita {
+	text-decoration: underline;
+	color: #CCC;
+}
+
 
 
 /* ABOUT */
