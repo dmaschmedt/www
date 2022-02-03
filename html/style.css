@@ -483,6 +483,15 @@ a.team-member-bio {
 
 /* TEAM MEMBER */
 
+.back-brian {
+  background-image: url(images/brian-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
 .back-roy {
   background-image: url(images/roy-bg.png);
   background-color: #EEE;
@@ -737,6 +746,10 @@ a:hover {
   background-image: url(images/news-1300.png);
 }
 
+.back-brian {
+  background-image: url(images/brian-bg-1300.png);
+}
+
 .back-don {
   background-image: url(images/don-bg-1300.png);
 }
@@ -926,6 +939,10 @@ html {
 
 .back-news {
   background-image: url(images/news-mobile.png);
+}
+
+.back-brian {
+  background-image: url(images/brian-bg-mobile.png);
 }
 
 .back-roy {
