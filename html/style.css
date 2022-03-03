@@ -6,7 +6,7 @@ nav li li {
   left: 0;
   list-style: none;
   padding: 0;
-  margin: 0;  
+  margin: 0;
 }
 
 
@@ -14,17 +14,17 @@ nav li li {
 /* LAYOUT */
 
 html {
-	font-size: 100%;
+  font-size: 100%;
 }
 
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	background-color: #EEE;
-	font-family: Roboto, Ubuntu, sans-serif;
+  background-color: #EEE;
+  font-family: Roboto, Ubuntu, sans-serif;
 }
 
 hr {
@@ -102,7 +102,7 @@ hr {
 /* TEXT */
 
 h1 {
-	font-family: proxima-nova, Roboto, sans-serif;
+  font-family: proxima-nova, Roboto, sans-serif;
   color: #FFF;
   font-size: 500%;
   line-height: 100%;
@@ -110,7 +110,7 @@ h1 {
 }
 
 h2 {
-	font-family: proxima-nova, Roboto, Ubuntu, sans-serif;
+  font-family: proxima-nova, Roboto, Ubuntu, sans-serif;
   display: block;
   color: #707070;
   font-size: 250%;
@@ -119,7 +119,7 @@ h2 {
 }
 
 h3 {
-	font-family: proxima-nova, Roboto, Ubuntu, sans-serif;
+  font-family: proxima-nova, Roboto, Ubuntu, sans-serif;
   display: block;
   color: #707070;
   font-size: 200%;
@@ -127,7 +127,7 @@ h3 {
 }
 
 h4 {
-	font-family: Ubuntu, Roboto, sans-serif;
+  font-family: Ubuntu, Roboto, sans-serif;
   display: block;
   font-weight: 400;
   color: #000;
@@ -145,7 +145,7 @@ h5 {
 }
 
 p {
-	font-family: Ubuntu, Roboto, sans-serif;
+  font-family: Ubuntu, Roboto, sans-serif;
   color: #000;
   text-align: left;
   display: block;
@@ -161,7 +161,7 @@ p.last {
 
 strong {
   font-weight: 300;
-  color: rgb(21,41,4);
+  color: rgb(21, 41, 4);
 }
 
 p.name {
@@ -196,52 +196,52 @@ p.credit {
 /* HEADER */
 
 header {
-	font-family: Roboto, Ubuntu, sans-serif;
-	text-align: left;
-	padding-top: 3em;
-	position: relative;
+  font-family: Roboto, Ubuntu, sans-serif;
+  text-align: left;
+  padding-top: 3em;
+  position: relative;
 }
 
 .logo {
-	width: 30%;
-	float: left;
+  width: 30%;
+  float: left;
 }
 
 .menu-main {
-	width: 70%;
-	float: right;
-	text-align: right;
+  width: 70%;
+  float: right;
+  text-align: right;
 }
 
 #head {
-	text-align: left;
-	padding-top: 15em;
-	padding-bottom: 1em;
+  text-align: left;
+  padding-top: 15em;
+  padding-bottom: 1em;
 }
 
 
 /* Animation */
 
 @keyframes fadeInUp {
-    from {
-        transform: translate3d(0,40px,0);
-    }
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
 
-    to {
-        transform: translate3d(0,0,0);
-        opacity: 1;
-    }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeInUp {
-    from {
-        transform: translate3d(0,40px,0);
-    }
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
 
-    to {
-        transform: translate3d(0,0,0);
-        opacity: 1
-    }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1
+  }
 }
 
 .animated {
@@ -266,40 +266,40 @@ header {
 
 #menu-main-fixed li,
 #menu-main-fixed-rita li {
-	float: right;
-	list-style-type: none;
-	font-family: Ubuntu, Roboto, sans-serif;
-	font-size: 100%;
-	clear: both;
-	line-height: 100%;
-	text-transform: uppercase;
+  float: right;
+  list-style-type: none;
+  font-family: Ubuntu, Roboto, sans-serif;
+  font-size: 100%;
+  clear: both;
+  line-height: 100%;
+  text-transform: uppercase;
   padding-bottom: 1em;
 }
 
 #menu-main-fixed li a {
-	text-decoration: none;
-	color: #FFF;
-	display: block;
+  text-decoration: none;
+  color: #FFF;
+  display: block;
 }
 
 #menu-main-fixed li a:hover {
-	text-decoration: underline;
-	color: #FFF;
+  text-decoration: underline;
+  color: #FFF;
 }
 
 #menu-main-fixed li a:focus {
-	text-decoration: underline;
-	color: #FFF;
+  text-decoration: underline;
+  color: #FFF;
 }
 
 #menu-main-fixed li a:active {
-	text-decoration: underline;
-	color: #FFF;
+  text-decoration: underline;
+  color: #FFF;
 }
 
 #menu-page {
-	text-decoration: underline;
-	color: #FFF;
+  text-decoration: underline;
+  color: #FFF;
 }
 
 #menu-main-fixed-rita li a {
@@ -309,8 +309,8 @@ header {
 }
 
 #menu-page-rita {
-	text-decoration: underline;
-	color: #CCC;
+  text-decoration: underline;
+  color: #CCC;
 }
 
 
@@ -319,7 +319,7 @@ header {
 
 .back-about {
   background-image: url(images/about.png);
- 	background-color: #EEE;
+  background-color: #EEE;
   background-repeat: no-repeat;
   background-position: top left;
   background-size: 100% auto;
@@ -348,7 +348,7 @@ header {
 
 .back-philosophy {
   background-image: url(images/philosophy.png);
- 	background-color: #EEE;
+  background-color: #EEE;
   background-repeat: no-repeat;
   background-position: top left;
   background-size: 100% auto;
@@ -356,20 +356,20 @@ header {
 }
 
 section {
-   display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.media { 
-   min-width: 0;
-   margin: 5px;
+.media {
+  min-width: 0;
+  margin: 5px;
 }
 
 img.model {
-   width: 1300px;
-   max-width: 100%; 
-   max-height: 90px; 
+  width: 1300px;
+  max-width: 100%;
+  max-height: 90px;
 }
 
 
@@ -446,7 +446,7 @@ a.team-member-bio {
   width: 100%;
   height: 100%;
   opacity: 0;
-  background-color: rgba(0,0,0, .6);
+  background-color: rgba(0, 0, 0, .6);
   transition: opacity .3s linear;
 }
 
@@ -651,10 +651,10 @@ a.team-member-bio {
 }
 
 img.member {
-   width: 100%;
-   height: auto;
-   margin-top: 0.75em;
-   margin-bottom: 1em;
+  width: 100%;
+  height: auto;
+  margin-top: 0.75em;
+  margin-bottom: 1em;
 }
 
 .team-member-right {
@@ -665,9 +665,9 @@ img.member {
 
 .top,
 .bottom {
- width: 100%;
- float: none;
- flex: 100%;
+  width: 100%;
+  float: none;
+  flex: 100%;
 }
 
 span.territory {
@@ -675,7 +675,7 @@ span.territory {
 }
 
 span.e-mail {
-  color: rgb(21,41,4);
+  color: rgb(21, 41, 4);
 }
 
 
@@ -692,18 +692,18 @@ span.e-mail {
 }
 
 .prev {
-  border-right: 1px solid rgb(21,41,4);
+  border-right: 1px solid rgb(21, 41, 4);
   padding-right: 10px;
-  color: rgb(21,41,4);
+  color: rgb(21, 41, 4);
 }
 
 .next {
   padding-left: 10px;
-  color: rgb(21,41,4);
+  color: rgb(21, 41, 4);
 }
 
 a {
-  color: rgb(21,41,4);
+  color: rgb(21, 41, 4);
   text-decoration: none;
 }
 
@@ -717,113 +717,113 @@ a:hover {
 
 @media (max-width: 1200px) {
 
-.back-about {
-  background-image: url(images/about-1300.png);
-}
+  .back-about {
+    background-image: url(images/about-1300.png);
+  }
 
-.back-philosophy {
-  background-image: url(images/philosophy-1300.png);
-}
+  .back-philosophy {
+    background-image: url(images/philosophy-1300.png);
+  }
 
-.back-partners {
-  background-image: url(images/partners-1300.png);
-}
+  .back-partners {
+    background-image: url(images/partners-1300.png);
+  }
 
-.back-team {
-  background-image: url(images/team-1300.png);
-}
+  .back-team {
+    background-image: url(images/team-1300.png);
+  }
 
-.back-news {
-  background-image: url(images/news-1300.png);
-}
+  .back-news {
+    background-image: url(images/news-1300.png);
+  }
 
-.back-liz {
-  background-image: url(images/liz-bg-1300.png);
-}
+  .back-liz {
+    background-image: url(images/liz-bg-1300.png);
+  }
 
-.back-brian {
-  background-image: url(images/brian-bg-1300.png);
-}
+  .back-brian {
+    background-image: url(images/brian-bg-1300.png);
+  }
 
-.back-don {
-  background-image: url(images/don-bg-1300.png);
-}
+  .back-don {
+    background-image: url(images/don-bg-1300.png);
+  }
 
-.back-roger {
-  background-image: url(images/roger-bg-1300.png);
-}
+  .back-roger {
+    background-image: url(images/roger-bg-1300.png);
+  }
 
-.back-drew {
-  background-image: url(images/drew-bg-1300.png);
-}
+  .back-drew {
+    background-image: url(images/drew-bg-1300.png);
+  }
 
-.back-stephen {
-  background-image: url(images/stephen-bg-1300.png);
-}
+  .back-stephen {
+    background-image: url(images/stephen-bg-1300.png);
+  }
 
-.back-roy {
-  background-image: url(images/roy-bg-1300.png);
-}
+  .back-roy {
+    background-image: url(images/roy-bg-1300.png);
+  }
 
-.back-ben {
-  background-image: url(images/ben-bg-1300.png);
-}
+  .back-ben {
+    background-image: url(images/ben-bg-1300.png);
+  }
 
-.back-kelly {
-  background-image: url(images/kelly-bg-1300.png);
-}
+  .back-kelly {
+    background-image: url(images/kelly-bg-1300.png);
+  }
 
-.back-frank {
-  background-image: url(images/frank-bg-1300.png);
-}
+  .back-frank {
+    background-image: url(images/frank-bg-1300.png);
+  }
 
-.back-scott {
-  background-image: url(images/scott-bg-1300.png);
-}
+  .back-scott {
+    background-image: url(images/scott-bg-1300.png);
+  }
 
-.back-rita {
-  background-image: url(images/rita-bg-1300.png);
-}
+  .back-rita {
+    background-image: url(images/rita-bg-1300.png);
+  }
 
-.back-cale {
-  background-image: url(images/cale-bg-1300.png);
-}
+  .back-cale {
+    background-image: url(images/cale-bg-1300.png);
+  }
 
-.back-justin {
-  background-image: url(images/justin-bg-1300.png);
-}
+  .back-justin {
+    background-image: url(images/justin-bg-1300.png);
+  }
 
-.back-josh {
-  background-image: url(images/josh-bg-1300.png);
-}
+  .back-josh {
+    background-image: url(images/josh-bg-1300.png);
+  }
 
-.back-travis {
-  background-image: url(images/travis-bg-1300.png);
-}
+  .back-travis {
+    background-image: url(images/travis-bg-1300.png);
+  }
 
-.back-steve-johnson {
-  background-image: url(images/steve-johnson-bg-1300.png);
-}
+  .back-steve-johnson {
+    background-image: url(images/steve-johnson-bg-1300.png);
+  }
 
-.back-randy {
-  background-image: url(images/randy-bg-1300.png);
-}
+  .back-randy {
+    background-image: url(images/randy-bg-1300.png);
+  }
 
-.back-marine {
-  background-image: url(images/marine-1300.png);
-}
+  .back-marine {
+    background-image: url(images/marine-1300.png);
+  }
 
-.back-camping {
-  background-image: url(images/camping-1300.png);
-}
+  .back-camping {
+    background-image: url(images/camping-1300.png);
+  }
 
-.team-member-left {
-  flex: 35%;
-}
+  .team-member-left {
+    flex: 35%;
+  }
 
-.team-member-right {
-  flex: 60%;
-}
+  .team-member-right {
+    flex: 60%;
+  }
 
 }
 
@@ -831,39 +831,39 @@ a:hover {
 
 @media (max-width: 960px) {
 
-h1 {
-  font-size: 400%;
-}
+  h1 {
+    font-size: 400%;
+  }
 
-.team-member-right {
-  flex: 100%;
-  padding-left: 0;
-  border-left: none;
-}
+  .team-member-right {
+    flex: 100%;
+    padding-left: 0;
+    border-left: none;
+  }
 
-team-member-left {
-  padding-right: 1em;
-}
+  team-member-left {
+    padding-right: 1em;
+  }
 
-.top {
-  width: 45%;
-  float: left;
-}
+  .top {
+    width: 45%;
+    float: left;
+  }
 
-.bottom {
-  width: 54%;
-  float: right;
-}
+  .bottom {
+    width: 54%;
+    float: right;
+  }
 
-img.member {
-  margin-top: 0;
-  width: 95%;
-}
+  img.member {
+    margin-top: 0;
+    width: 95%;
+  }
 
-#flex-container-team-member {
+  #flex-container-team-member {
     padding-bottom: 0;
     margin-top: 15em;
-}
+  }
 
 }
 
@@ -871,26 +871,26 @@ img.member {
 
 @media (max-width: 810px) {
 
-.partners-logo,
-.partners-logo-empty,
-.team-member {
-  width: 200px;
-  height: auto;
-  flex: 1 0 30%;
-}
+  .partners-logo,
+  .partners-logo-empty,
+  .team-member {
+    width: 200px;
+    height: auto;
+    flex: 1 0 30%;
+  }
 
-#head {
-  padding-top: 5em;
-}
+  #head {
+    padding-top: 5em;
+  }
 
-#flex-container-bg {
-  padding-bottom: 2em;
-}
+  #flex-container-bg {
+    padding-bottom: 2em;
+  }
 
-#flex-container-team,
-#flex-container-news {
-  padding-bottom: 0;
-}
+  #flex-container-team,
+  #flex-container-news {
+    padding-bottom: 0;
+  }
 
 }
 
@@ -898,200 +898,197 @@ img.member {
 
 @media (max-width: 760px) {
 
-h5 {
-	padding-bottom: 0.5em;
-}
+  h5 {
+    padding-bottom: 0.5em;
+  }
 
-hr {
-  width: 100%;
-}
+  hr {
+    width: 100%;
+  }
 
-.back-philosophy {
-  background-image: url(images/philosophy-mobile.png);
-}
+  .back-philosophy {
+    background-image: url(images/philosophy-mobile.png);
+  }
 
-.back-team {
-  background-image: url(images/team-mobile.png);
-}
+  .back-team {
+    background-image: url(images/team-mobile.png);
+  }
 
 }
 
 
 @media (max-width: 620px) {
 
-html {
-  font-size: 90%;
-}
+  html {
+    font-size: 90%;
+  }
 
-.back-about {
-  background-image: url(images/about-mobile.png);
-}
+  .back-about {
+    background-image: url(images/about-mobile.png);
+  }
 
-.back-partners {
-  background-image: url(images/partners-mobile.png);
-}
+  .back-partners {
+    background-image: url(images/partners-mobile.png);
+  }
 
-.back-news {
-  background-image: url(images/news-mobile.png);
-}
+  .back-news {
+    background-image: url(images/news-mobile.png);
+  }
 
-.back-liz {
-  background-image: url(images/liz-bg-mobile.png);
-}
+  .back-liz {
+    background-image: url(images/liz-bg-mobile.png);
+  }
 
-.back-brian {
-  background-image: url(images/brian-bg-mobile.png);
-}
+  .back-brian {
+    background-image: url(images/brian-bg-mobile.png);
+  }
 
-.back-roy {
-  background-image: url(images/roy-bg-mobile.png);
-}
+  .back-roy {
+    background-image: url(images/roy-bg-mobile.png);
+  }
 
-.back-don {
-  background-image: url(images/don-bg-mobile.png);
-}
+  .back-don {
+    background-image: url(images/don-bg-mobile.png);
+  }
 
-.back-roger {
-  background-image: url(images/roger-bg-mobile.png);
-}
+  .back-roger {
+    background-image: url(images/roger-bg-mobile.png);
+  }
 
-.back-drew {
-  background-image: url(images/drew-bg-mobile.png);
-}
+  .back-drew {
+    background-image: url(images/drew-bg-mobile.png);
+  }
 
-.back-stephen {
-  background-image: url(images/stephen-bg-mobile.png);
-}
+  .back-stephen {
+    background-image: url(images/stephen-bg-mobile.png);
+  }
 
-.back-ben {
-  background-image: url(images/ben-bg-mobile.png);
-}
+  .back-ben {
+    background-image: url(images/ben-bg-mobile.png);
+  }
 
-.back-kelly {
-  background-image: url(images/kelly-bg-mobile.png);
-}
+  .back-kelly {
+    background-image: url(images/kelly-bg-mobile.png);
+  }
 
-.back-frank {
-  background-image: url(images/frank-bg-mobile.png);
-}
+  .back-frank {
+    background-image: url(images/frank-bg-mobile.png);
+  }
 
-.back-scott {
-  background-image: url(images/scott-bg-mobile.png);
-}
+  .back-scott {
+    background-image: url(images/scott-bg-mobile.png);
+  }
 
-.back-rita {
-  background-image: url(images/rita-bg-mobile.png);
-}
+  .back-rita {
+    background-image: url(images/rita-bg-mobile.png);
+  }
 
-.back-cale {
-  background-image: url(images/cale-bg-mobile.png);
-}
+  .back-cale {
+    background-image: url(images/cale-bg-mobile.png);
+  }
 
-.back-justin {
-  background-image: url(images/justin-bg-mobile.png);
-}
+  .back-justin {
+    background-image: url(images/justin-bg-mobile.png);
+  }
 
-.back-josh {
-  background-image: url(images/josh-bg-mobile.png);
-}
+  .back-josh {
+    background-image: url(images/josh-bg-mobile.png);
+  }
 
-.back-travis {
-  background-image: url(images/travis-bg-mobile.png);
-}
+  .back-travis {
+    background-image: url(images/travis-bg-mobile.png);
+  }
 
-.back-steve-johnson {
-  background-image: url(images/steve-johnson-bg-mobile.png);
-}
+  .back-steve-johnson {
+    background-image: url(images/steve-johnson-bg-mobile.png);
+  }
 
-.back-randy {
-  background-image: url(images/randy-bg-mobile.png);
-}
+  .back-randy {
+    background-image: url(images/randy-bg-mobile.png);
+  }
 
-.back-marine {
-  background-image: url(images/marine-mobile.png);
-}
+  .back-marine {
+    background-image: url(images/marine-mobile.png);
+  }
 
-.back-camping {
-  background-image: url(images/camping-mobile.png);
-}
+  .back-camping {
+    background-image: url(images/camping-mobile.png);
+  }
 
-.partners-logo,
-.partners-logo-empty,
-.team-member {
-  width: 200px;
-  height: auto;
-  flex: 1 0 45%;
-}
+  .partners-logo,
+  .partners-logo-empty,
+  .team-member {
+    width: 200px;
+    height: auto;
+    flex: 1 0 45%;
+  }
 
-.logo,
-.menu-main {
-  width: 50%;
-}
+  .logo,
+  .menu-main {
+    width: 50%;
+  }
 
-.team-member-left {
-  flex: 100%;
-  padding-right: 0;
-}
+  .team-member-left {
+    flex: 100%;
+    padding-right: 0;
+  }
 
-img.member {
-  margin-top: 0;
-}
+  img.member {
+    margin-top: 0;
+  }
 
-#flex-container-team-member {
-  padding-top: 2em;
-}
+  #flex-container-team-member {
+    padding-top: 2em;
+  }
 
-h5 {
-  padding-bottom: 0.25em;
-}
-
-}
-
-
-
-@media (max-width: 380px) {
-
-header {
-  padding-top: 2em;
-}
-
-#head {
-  padding-top: 2em;
-}
-
-h1 {
-  font-size: 250%;
-  font-weight: 300;
-}
-
-h3 {
-  font-size: 150%;
-  color: #000;
-}
-
-p.footer {
-  font-size: 90%;
-}
-
-#contact {
-  padding-bottom: 1em;
-}
-
-.top,
-.bottom {
- width: 100%;
- float: none;
-}
-
-img.member {
-  width: 100%;
-}
-
-#flex-container-team-member {
-  margin-top: 12em;
-}
+  h5 {
+    padding-bottom: 0.25em;
+  }
 
 }
 
 
 
+@media (max-width: 430px) {
+
+  header {
+    padding-top: 2em;
+  }
+
+  #head {
+    padding-top: 2em;
+  }
+
+  h1 {
+    font-size: 250%;
+    font-weight: 300;
+  }
+
+  h3 {
+    font-size: 150%;
+    color: #000;
+  }
+
+  p.footer {
+    font-size: 90%;
+  }
+
+  #contact {
+    padding-bottom: 1em;
+  }
+
+  .top,
+  .bottom {
+    width: 100%;
+    float: none;
+  }
+
+  img.member {
+    width: 100%;
+  }
+
+  #flex-container-team-member {
+    margin-top: 12em;
+  }
+
+}
