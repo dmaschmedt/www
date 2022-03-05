@@ -401,6 +401,14 @@ img.model {
   flex: 0 0 21%;
 }
 
+img.partners {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d22027;
+}
+
 
 
 /* TEAM */
