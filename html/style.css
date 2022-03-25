@@ -422,7 +422,7 @@ img.partners {
   max-height: 1000px;
 }
 
-.team-member {
+.team-member, .team-member-empty {
   border: 0;
   margin: 5px 5px 32px;
   width: 300px;
@@ -881,7 +881,8 @@ a:hover {
 
   .partners-logo,
   .partners-logo-empty,
-  .team-member {
+  .team-member,
+  .team-member-empty {
     width: 200px;
     height: auto;
     flex: 1 0 30%;
@@ -1025,10 +1026,14 @@ a:hover {
 
   .partners-logo,
   .partners-logo-empty,
-  .team-member {
+  .team-membery {
     width: 200px;
     height: auto;
     flex: 1 0 45%;
+  }
+
+  .team-member-empty {
+    display: none;
   }
 
   .logo,
