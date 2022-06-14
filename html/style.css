@@ -590,8 +590,8 @@ a.team-member-bio {
   max-height: 1000px;
 }
 
-.back-justin {
-  background-image: url(images/justin-bg.png);
+.back-matt {
+  background-image: url(images/matt-bg.png);
   background-color: #EEE;
   background-repeat: no-repeat;
   background-position: top left;
@@ -797,8 +797,8 @@ a:hover {
     background-image: url(images/cale-bg-1300.png);
   }
 
-  .back-justin {
-    background-image: url(images/justin-bg-1300.png);
+  .back-matt {
+    background-image: url(images/matt-bg-1300.png);
   }
 
   .back-josh {
@@ -995,8 +995,8 @@ a:hover {
     background-image: url(images/cale-bg-mobile.png);
   }
 
-  .back-justin {
-    background-image: url(images/justin-bg-mobile.png);
+  .back-matt {
+    background-image: url(images/matt-bg-mobile.png);
   }
 
   .back-josh {
