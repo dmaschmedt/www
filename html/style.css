@@ -518,8 +518,8 @@ a.team-member-bio {
   max-height: 1000px;
 }
 
-.back-drew {
-  background-image: url(images/drew-bg.png);
+.back-owen {
+  background-image: url(images/owen-bg.png);
   background-color: #EEE;
   background-repeat: no-repeat;
   background-position: top left;
@@ -761,8 +761,8 @@ a:hover {
     background-image: url(images/roger-bg-1300.png);
   }
 
-  .back-drew {
-    background-image: url(images/drew-bg-1300.png);
+  .back-owen {
+    background-image: url(images/owen-bg-1300.png);
   }
 
   .back-stephen {
@@ -963,8 +963,8 @@ a:hover {
     background-image: url(images/roger-bg-mobile.png);
   }
 
-  .back-drew {
-    background-image: url(images/drew-bg-mobile.png);
+  .back-owen {
+    background-image: url(images/owen-bg-mobile.png);
   }
 
   .back-stephen {
