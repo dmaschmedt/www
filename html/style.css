@@ -430,6 +430,14 @@ img.partners {
   flex: 1 0 21%;
 }
 
+.team-member-empty {
+  border: 0;
+  margin: 5px 5px 0px;
+  width: 300px;
+  height: auto;
+  flex: 1 0 21%;
+}
+
 img.headshot {
   display: block;
   position: relative;
@@ -881,7 +889,8 @@ a:hover {
 
   .partners-logo,
   .partners-logo-empty,
-  .team-member {
+  .team-member,
+  .team-member-empty {
     width: 200px;
     height: auto;
     flex: 1 0 30%;
@@ -1025,7 +1034,8 @@ a:hover {
 
   .partners-logo,
   .partners-logo-empty,
-  .team-member {
+  .team-member,
+  .team-member-empty {
     width: 200px;
     height: auto;
     flex: 1 0 45%;
