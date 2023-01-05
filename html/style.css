@@ -481,6 +481,15 @@ a.team-member-bio {
 
 /* TEAM MEMBER */
 
+.back-erik {
+  background-image: url(images/erik-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
 .back-liz {
   background-image: url(images/liz-bg.png);
   background-color: #EEE;
@@ -753,6 +762,10 @@ a:hover {
     background-image: url(images/news-1300.png);
   }
 
+  .back-erik {
+    background-image: url(images/erik-bg-1300.png);
+  }
+
   .back-liz {
     background-image: url(images/liz-bg-1300.png);
   }
@@ -950,6 +963,10 @@ a:hover {
 
   .back-news {
     background-image: url(images/news-mobile.png);
+  }
+
+  .back-erik {
+    background-image: url(images/erik-bg-mobile.png);
   }
 
   .back-liz {
