@@ -481,6 +481,15 @@ a.team-member-bio {
 
 /* TEAM MEMBER */
 
+.back-steve-hightower {
+  background-image: url(images/steve-hightower-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
 .back-erik {
   background-image: url(images/erik-bg.png);
   background-color: #EEE;
@@ -670,6 +679,15 @@ a.team-member-bio {
   max-height: 1000px;
 }
 
+.back-any {
+  background-image: url(images/any-bg.png);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
 .team-member-left {
   flex: 28%;
   padding-right: 1em;
@@ -762,6 +780,10 @@ a:hover {
     background-image: url(images/news-1300.png);
   }
 
+  .back-steve-hightower {
+    background-image: url(images/steve-hightower-bg-1300.png);
+  }
+
   .back-erik {
     background-image: url(images/erik-bg-1300.png);
   }
@@ -844,6 +866,10 @@ a:hover {
 
   .back-camping {
     background-image: url(images/camping-1300.png);
+  }
+
+  .back-any {
+    background-image: url(images/any-bg-1300.png);
   }
 
   .team-member-left {
@@ -965,6 +991,10 @@ a:hover {
     background-image: url(images/news-mobile.png);
   }
 
+  .back-steve-hightower {
+    background-image: url(images/steve-hightower-bg-mobile.png);
+  }
+
   .back-erik {
     background-image: url(images/erik-bg-mobile.png);
   }
@@ -1047,6 +1077,10 @@ a:hover {
 
   .back-camping {
     background-image: url(images/camping-mobile.png);
+  }
+
+  .back-any {
+    background-image: url(images/any-bg-mobile.png);
   }
 
   .partners-logo,
