@@ -788,6 +788,10 @@ a:hover {
     background-image: url(images/news-1300.png);
   }
 
+  .back-aaron {
+    background-image: url(images/aaron-bg-1300.png);
+  }
+
   .back-steve-hightower {
     background-image: url(images/steve-hightower-bg-1300.png);
   }
@@ -997,6 +1001,10 @@ a:hover {
 
   .back-news {
     background-image: url(images/news-mobile.png);
+  }
+
+  .back-aaron {
+    background-image: url(images/aaron-bg-mobile.png);
   }
 
   .back-steve-hightower {
