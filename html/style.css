@@ -480,14 +480,6 @@ a.team-member-bio {
 
 /* TEAM MEMBER */
 
-.back-winston {
-  background-image: url(images/bg-lake.jpg);
-  background-color: #EEE;
-  background-repeat: no-repeat;
-  background-position: top left;
-  background-size: 100% auto;
-}
-
 .back-chris {
   background-image: url(images/chris-bg.jpg);
   background-color: #EEE;
