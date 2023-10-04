@@ -480,6 +480,15 @@ a.team-member-bio {
 
 /* TEAM MEMBER */
 
+.back-duck {
+  background-image: url(images/duck-bg.jpg);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
 .back-chris {
   background-image: url(images/chris-bg.jpg);
   background-color: #EEE;
@@ -797,6 +806,10 @@ a:hover {
     background-image: url(images/news-1300.png);
   }
 
+  .back-duck {
+    background-image: url(images/duck-bg-1300.jpg);
+  }
+
   .back-chris {
     background-image: url(images/chris-bg-1300.jpg);
   }
@@ -1014,6 +1027,10 @@ a:hover {
 
   .back-news {
     background-image: url(images/news-mobile.png);
+  }
+
+  .back-duck {
+    background-image: url(images/duck-bg-mobile.jpg);
   }
 
   .back-chris {
