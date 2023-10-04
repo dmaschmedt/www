@@ -485,6 +485,7 @@ a.team-member-bio {
   background-color: #EEE;
   background-repeat: no-repeat;
   background-position: top left;
+  background-size: 100% auto;
 }
 
 .back-chris {
