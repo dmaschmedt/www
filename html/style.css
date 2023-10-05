@@ -498,6 +498,24 @@ a.team-member-bio {
   max-height: 1000px;
 }
 
+.back-fall {
+  background-image: url(images/fall-bg.jpg);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
+.back-ducks {
+  background-image: url(images/ducks-bg.jpg);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
 .back-chris {
   background-image: url(images/chris-bg.jpg);
   background-color: #EEE;
@@ -823,6 +841,14 @@ a:hover {
     background-image: url(images/lake-bg-1300.jpg);
   }
 
+  .back-fall {
+    background-image: url(images/fall-bg-1300.jpg);
+  }
+
+  .back-ducks {
+    background-image: url(images/ducks-bg-1300.jpg);
+  }
+
   .back-chris {
     background-image: url(images/chris-bg-1300.jpg);
   }
@@ -1048,6 +1074,14 @@ a:hover {
 
   .back-lake {
     background-image: url(images/lake-bg-mobile.jpg);
+  }
+
+  .back-fall {
+    background-image: url(images/fall-bg-mobile.jpg);
+  }
+
+  .back-ducks {
+    background-image: url(images/ducks-bg-mobile.jpg);
   }
 
   .back-chris {
