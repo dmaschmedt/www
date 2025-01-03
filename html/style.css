@@ -525,6 +525,15 @@ a.team-member-bio {
   max-height: 1000px;
 }
 
+.back-bryan {
+  background-image: url(images/bryan-bg.jpg);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
 .back-chris {
   background-image: url(images/chris-bg.jpg);
   background-color: #EEE;
@@ -858,6 +867,10 @@ a:hover {
     background-image: url(images/ducks-bg-1300.jpg);
   }
 
+  .back-bryan {
+    background-image: url(images/bryan-bg-1300.jpg);
+  }
+
   .back-chris {
     background-image: url(images/chris-bg-1300.jpg);
   }
@@ -1091,6 +1104,10 @@ a:hover {
 
   .back-ducks {
     background-image: url(images/ducks-bg-mobile.jpg);
+  }
+
+  .back-bryan {
+    background-image: url(images/bryan-bg-mobile.jpg);
   }
 
   .back-chris {
