@@ -126,6 +126,15 @@ h3 {
   font-weight: 300;
 }
 
+h3.padding-bottom {
+  font-family: proxima-nova, Roboto, Ubuntu, sans-serif;
+  display: block;
+  color: #707070;
+  font-size: 200%;
+  font-weight: 300;
+  padding-bottom: 0.5em;
+}
+
 h4 {
   font-family: Ubuntu, Roboto, sans-serif;
   display: block;
