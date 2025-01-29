@@ -525,6 +525,15 @@ a.team-member-bio {
   max-height: 1000px;
 }
 
+.back-dominick {
+  background-image: url(images/dominick-bg-v2.jpg);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
 .back-bryan {
   background-image: url(images/bryan-bg.jpg);
   background-color: #EEE;
