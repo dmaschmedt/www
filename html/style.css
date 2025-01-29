@@ -876,6 +876,10 @@ a:hover {
     background-image: url(images/ducks-bg-1300.jpg);
   }
 
+  .back-dominick {
+    background-image: url(images/dominick-bg-1300.jpg);
+  }
+
   .back-bryan {
     background-image: url(images/bryan-bg-1300.jpg);
   }
@@ -1113,6 +1117,10 @@ a:hover {
 
   .back-ducks {
     background-image: url(images/ducks-bg-mobile.jpg);
+  }
+
+  .back-dominick {
+    background-image: url(images/dominick-bg-mobile.jpg);
   }
 
   .back-bryan {
