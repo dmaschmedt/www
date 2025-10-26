@@ -525,6 +525,15 @@ a.team-member-bio {
   max-height: 1000px;
 }
 
+.back-dan {
+  background-image: url(images/dan-radke-bg-1800.jpg);
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% auto;
+  max-height: 1000px;
+}
+
 .back-dominick {
   background-image: url(images/dominick-bg.jpg);
   background-color: #EEE;
@@ -880,6 +889,10 @@ a:hover {
     background-image: url(images/dominick-bg-1300.jpg);
   }
 
+  .back-dan {
+    background-image: url(images/dan-radke-bg-1300.jpg);
+  }
+
   .back-bryan {
     background-image: url(images/bryan-bg-1300.jpg);
   }
@@ -1117,6 +1130,10 @@ a:hover {
 
   .back-ducks {
     background-image: url(images/ducks-bg-mobile.jpg);
+  }
+
+  .back-dan {
+    background-image: url(images/dan-radke-bg-mobile.jpg);
   }
 
   .back-dominick {
